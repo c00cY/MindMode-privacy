@@ -1,0 +1,7 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MindMode Logo">
+  <rect width="48" height="48" rx="14" fill="#18211D"/>
+  <path d="M11.5 32.5V15.5H16.2L24 26.7L31.8 15.5H36.5V32.5H31.2V24.1L25.8 31.8H22.2L16.8 24.1V32.5H11.5Z" fill="#FFFDF8"/>
+  <rect x="19" y="11" width="3.2" height="7" rx="1.6" fill="#C8765A"/>
+  <rect x="26" y="11" width="3.2" height="7" rx="1.6" fill="#6D8A75"/>
+  <path d="M14 37C20.2 40.5 27.8 40.5 34 37" stroke="#FFFDF8" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
