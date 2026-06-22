@@ -4,80 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MindMode Datenschutzerklaerung</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f8f4ec;
-      --panel: #fffdf8;
-      --ink: #17201b;
-      --muted: #667269;
-      --line: #dde8e0;
-      --accent: #8b3f66;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.65;
-    }
-    main {
-      width: min(920px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 48px 0;
-    }
-    article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: clamp(24px, 5vw, 54px);
-      box-shadow: 0 18px 50px rgba(23, 32, 27, 0.08);
-    }
-    h1, h2 {
-      line-height: 1.2;
-      margin: 0;
-    }
-    h1 {
-      font-size: clamp(2rem, 5vw, 3.4rem);
-      letter-spacing: 0;
-    }
-    h2 {
-      font-size: 1.25rem;
-      margin-top: 34px;
-      padding-top: 26px;
-      border-top: 1px solid var(--line);
-    }
-    p, ul { margin: 14px 0 0; }
-    ul { padding-left: 22px; }
-    a { color: var(--accent); }
-    .eyebrow {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 10px;
-    }
-    .contact {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 10px 14px;
-      border-radius: 999px;
-      background: #f1e7ee;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 650;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <article>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">M</span><span>MindMode</span></a>
+    <nav aria-label="Hauptnavigation">
+      <a href="index.html">Start</a>
+      <a href="support.html">Support</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+  </header>
+
+  <main class="content-page">
+    <article class="content-card">
       <p class="eyebrow">Stand: 18. Juni 2026</p>
       <h1>MindMode Datenschutzerklaerung</h1>
 
       <h2>Verantwortlicher</h2>
       <p>MindMode</p>
-      <p>Kontakt:</p>
-      <a class="contact" href="mailto:c00cY83@googlemail.com">c00cY83@googlemail.com</a>
+      <p>Kontakt: <a href="mailto:c00cY83@googlemail.com">c00cY83@googlemail.com</a></p>
 
       <h2>Welche Daten verarbeitet MindMode?</h2>
       <p>MindMode arbeitet grundsaetzlich lokal auf dem Geraet. Die App nutzt Berechtigungen, um waehrend einer bewusst gestarteten Pause automatisch zu reagieren.</p>
@@ -121,9 +67,13 @@
       </ul>
 
       <h2>Kontakt</h2>
-      <p>Bei Fragen zum Datenschutz:</p>
-      <a class="contact" href="mailto:c00cY83@googlemail.com">c00cY83@googlemail.com</a>
+      <p>Bei Fragen zum Datenschutz: <a href="mailto:c00cY83@googlemail.com">c00cY83@googlemail.com</a></p>
     </article>
   </main>
+
+  <footer class="site-footer">
+    <p>© 2026 MindMode</p>
+    <div><a href="index.html">Start</a><a href="support.html">Support</a><a href="impressum.html">Impressum</a></div>
+  </footer>
 </body>
 </html>
