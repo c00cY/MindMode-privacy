@@ -47,6 +47,13 @@ a { color: inherit; }
   letter-spacing: -0.02em;
 }
 
+.brand-logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(24, 33, 29, 0.12);
+}
+
 .brand-mark {
   display: grid;
   place-items: center;
