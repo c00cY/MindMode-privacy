@@ -138,34 +138,19 @@ h3 { font-size: 1.35rem; }
 }
 
 .phone-frame {
-  min-height: 520px;
-  padding: 30px;
+  aspect-ratio: 9 / 16;
+  padding: 0;
   border-radius: 30px;
-  background: linear-gradient(160deg, var(--panel), var(--panel-strong));
-  border: 1px solid var(--line);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 18px;
+  background: #202621;
+  border: 10px solid #202621;
+  overflow: hidden;
 }
 
-.status-pill {
-  align-self: flex-start;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(122, 74, 99, 0.12);
-  color: var(--accent-dark);
-  font-weight: 750;
-}
-
-.phone-frame p { color: var(--muted); margin: 0; }
-
-.metric-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 14px 0;
-  border-top: 1px solid var(--line);
+.app-screenshot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .section {
@@ -242,5 +227,4 @@ h3 { font-size: 1.35rem; }
   .site-header, .site-footer { align-items: flex-start; flex-direction: column; }
   .hero, .split, .feature-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 28px; }
-  .phone-frame { min-height: 420px; }
 }
